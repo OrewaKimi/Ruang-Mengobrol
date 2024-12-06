@@ -1,8 +1,10 @@
 {
   "name": "pbj9_ruangngobrol",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +13,10 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "bad-words": "^3.0.0" 
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
