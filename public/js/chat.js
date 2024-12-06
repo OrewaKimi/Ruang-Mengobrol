@@ -7,7 +7,9 @@ const $sendLocationButton = document.querySelector('#kirim-lokasi')
 const $messages = document.querySelector('#messages') 
 // Templates 
 const messageTemplate = document.querySelector('#message-template').innerHTML 
-const locationMessageTemplate = document.querySelector('#locationMessagetemplate').innerHTML;
+
+const locationMessageTemplate = document.querySelector('#locationMessage-template').innerHTML;
+
 const sidebarTemplate = document.querySelector('#sidebar-template').innerHTML 
 // Options 
 const {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true}) 
